@@ -27,4 +27,6 @@
   <Icon>https://upload.wikimedia.org/wikipedia/commons/2/23/Commodore_C%3D_logo.svg</Icon>
   <Banner/>
   <Category>Emulators: Retro: Network:</Category>
+  <TemplateURL>https://githubusercontent.com/thea1ien/unraid_templates/main/templates/vice-tcpser-combo.xml
+</TemplateURL>
 </Container>
