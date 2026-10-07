@@ -1,1 +1,30 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>vice-tcpser-combo</Name>
+  <Description>Custom environment running the VICE Commodore 64 emulator (x64sc) bundled alongside the tcpser virtual modem engine, accessible completely inside a standard web browser via noVNC.</Description>
+  <Registry>https://docker.com</Registry>
+  <Repository>thea1ien/vice-tcpser-combo:latest</Repository>
+  <RegistryUrl>https://docker.com</RegistryUrl>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8085</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>25232</HostPort>
+        <ContainerPort>25232</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <WebUI>http://[IP]:[PORT:8080]/vnc.html?autoconnect=true</WebUI>
+  <Icon>https://wikimedia.org/wikipedia/commons/1/13/Commodore_C%3D_logo.svg</Icon>
+  <Banner/>
+  <Category>Emulators: Retro: Network:</Category>
+</Container>
