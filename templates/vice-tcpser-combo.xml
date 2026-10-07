@@ -24,7 +24,7 @@
     </Publish>
   </Networking>
   <WebUI>http://[IP]:[PORT:8080]/vnc.html?autoconnect=true</WebUI>
-  <Icon>https://wikimedia.org/wikipedia/commons/1/13/Commodore_C%3D_logo.svg</Icon>
+  <Icon>https://upload.wikimedia.org/wikipedia/commons/2/23/Commodore_C%3D_logo.svg</Icon>
   <Banner/>
   <Category>Emulators: Retro: Network:</Category>
 </Container>
